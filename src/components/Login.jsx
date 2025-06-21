@@ -3,7 +3,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
-var naviagte=useNavigate()
+var navigate=useNavigate()
 const loginHandler=()=>{
   navigate("/signup")
 }
